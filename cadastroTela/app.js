@@ -1,10 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 8015; // Porta em que o servidor será executado
-// Rota para exibir a página index.html
-app.get('/', (req, res) => {
-res.sendFile(__dirname + '/index.html');
-});
+const port = 8015;
 
 // Rota para exibir a página outra_pagina.html
 app.get('/cadastro.html', (req, res) => {
