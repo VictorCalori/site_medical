@@ -1,0 +1,61 @@
+
+
+.entrar{
+    color: #00a6fb;
+}
+
+.paciente{
+    color: white;
+    border-radius: 25px;
+    font-style: monospace
+}
+
+.button{
+    color: white;
+    border-radius: 50%;
+ }
+
+
+.paciente{ 
+    color: white;
+    border-radius: 10px;
+    font-style: monospace;
+    border-image: 10px;
+}
+.medico{
+    color: white;
+     border-radius: 10px;  
+     text-align: center;  
+     font-style: monospace
+}
+
+.administrador{
+    color: white;
+    border-radius: 10px;
+    font-style: monospace
+    ;
+  }
+
+  .linha {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: 2500px;
+    width: 1050px;
+    color: blue;
+  }
+
+  #img-1{
+  border-radius: 50px;
+  }
+
+  
+ 
+  *{
+    overflow: hidden;
+    font-family: Helvetica;
+  }
+
+
+
