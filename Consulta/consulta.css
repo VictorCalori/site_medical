@@ -1,0 +1,122 @@
+
+*{
+   background-color:  #d6effb;  
+   
+   }
+   
+   .consulta{
+border: 2px solid black;
+color: white;  
+background-color: #0570de;
+text-align: center;
+font-size: 30px;
+*{
+   margin: 0px;
+   padding: 0px;
+}
+
+.logo {  
+   background: rgb(0, 195, 255);
+   
+   height: 135px;
+}
+.borda {
+   border: 2px solid black;
+   margin: 20px;
+}
+
+.h2{
+   font-size: 23px;
+text-align: left;
+margin: 40px;
+margin-left: 100px;
+
+
+
+}
+
+.botao1 {
+   font-size: 20px;
+color: #ffffff;
+background-color: #00BFFF;
+border-radius: 10px;
+float: right;
+width: 150px;
+height: 45px;
+margin-top: -65px;
+text-align: center;
+margin-right: 100px;
+
+}
+
+.yuyu{
+   float: left;
+width: 28px;
+height: 13px;
+text-align: right;
+margin-right: -17px
+}
+
+.fundo {
+   background-size: 100%;
+
+
+
+}
+
+input{
+border: 1px solid rgb(0, 0, 0);
+width: 850px;
+height: 40px;
+font-size: 25px;
+}
+
+.sla{
+   margin-left: 30px;
+margin-top: 5px;
+}
+
+.calend{
+   width: 70px;
+height: 47px
+}
+
+
+.rodape{
+   text-align: left;
+   padding: 10px;
+   background-color: #00A6FB;
+   margin-top: 24px;
+   color: #fff;
+}
+
+
+.botao-marcado {
+   position: relative;
+ }
+ 
+ .botao-marcado::before {
+   content: "✓";
+   position: absolute;
+   top: -9px;
+   right: 7;
+   bottom: 0;
+   left: 0;
+   font-size: 19px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+ }
+ 
+   }
+   footer{
+      background-color: #00a6fb;
+      color: white;
+      margin-top: 45px;
+      padding: 0px;
+      width: 1452px;
+      height: 150px;
+      text-align: bottom;
+    }
+*{
+   overflow: hidden;
+}
