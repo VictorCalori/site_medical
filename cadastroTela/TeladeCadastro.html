@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+<body class="fundo"></body>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Comp atible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Group-SP</title>
+<link rel="stylesheet" href="cadastro.css">
+</head>
+
+<body>
+  <div class="logo"> <img src="https://github.com/GabrielBarbxsaaZx999/testee.github.io/blob/main/Logo.png?raw=true"
+      height="145px" width="425"></div>
+  <br>
+  <div class="cmc"> <b> <button style="font-size: 20px;" onclick="inicio()" class="inicio"> <b>
+          <font size="5" face="Calibri"> 🏠 Ínicio</button>
+      <font size="5" face="Calibri"><Span style="color: #00BFFF;"> > Cadastrar-se </Span></div>
+  </b>
+  </div>
+
+  <div class="borda">
+    <p>
+    <div class="h2">
+      <p> Nome Completo:<br> <input type="text" name="Nome" id="Nome" placeholder="Seu Nome Completo" required>
+      </p>
+      <br>
+      <label for="genero" style="font-size: 23px;">Gênero:</label>
+      <select id="genero" name="genero" class="genero" required>
+        <option value="" disabled selected>Selecione seu gênero</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+      </select>
+      <br>
+      <br>
+      <p>CPF: <br>
+        <input type="text" name="CPF" id="CPF" placeholder="(apenas números)" required>
+      </p><br>
+      <p>Celular:<br>
+        <input type="tel" name="Celular" id="Celular" placeholder="(apenas números)" required> </input>
+      </p><br>
+      <p><label for="data"> Data de Nascimento:</label>
+        <input type="date" id="data" name="data" required style="width: 190px" ; height="15px">
+      </p>
+      <br>
+      <p> CEP: <br>
+        <input type="text" name="CEP" id="CEP" placeholder="(apenas números)" required><br><br>
+        </td>
+      <p>E-mail: <br>
+        <input type="email" name="Email" id="Email" placeholder="naosei@gmail.com" required>
+      </p><br>
+      <p>Senha: <br>
+        <input type="password" id="senha" placeholder="Sua Senha" required>
+        <button class="olho" onclick="toggleSenhaVisibility()">👁</button>
+      </p><br>
+
+      <pre>
+          <font size="4" face="Helvetica">
+   Li e concordo com os <span style="color: blue;">termos de uso </span><button><div class="yuyu" id="botao" onclick="marcarBotao()"></button>
+     </button></div>
+       </pre>
+      <button class="botao1" onclick="validarForm()"> Concluir </button></form>
+      <br>
+      </h2>
+    </div>
+    <footer class="rodape">
+      <h3>
+        Todos os direitos reservados©2023
+      </h3>
+    </footer>
+
+    <script src="cadastro.js"> </script>
+
+
+</body>
+
+</html>
