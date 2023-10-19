@@ -1,6 +1,3 @@
-
-
-
 var botaoMarcado = false;
 
 function marcarBotao() {
@@ -12,6 +9,11 @@ function marcarBotao() {
     botao.classList.add("botao-marcado");
     botaoMarcado = true;
   }
+}
+
+function inicio(){
+  window.location.assign("inicio.html")
+
 }
 
 function validarForm() {
